@@ -9,13 +9,6 @@ var Body = React.createClass({
         <Grid>
           <Row>
             <Col sm={12}>
-              <PanelContainer>
-                <Panel>
-                  <PanelBody className='text-center'>
-                    <h1>Dashboard</h1>
-                  </PanelBody>
-                </Panel>
-              </PanelContainer>
              <PanelContainer noOverflow controlStyles='bg-orange fg-white'>
                 <Panel>
                   <PanelHeader className='bg-orange fg-white'>
@@ -31,7 +24,7 @@ var Body = React.createClass({
                     <Grid>
                       <Row>
                         <Col xs={12}>
-                          <Table striped bordered className='tablesaw' data-mode="swipe" data-sortable data-sortable-switch data-mode-switch>
+                          <Table striped bordered className='tablesaw' data-mode="stack" data-sortable data-sortable-switch data-mode-switch>
                             <thead>
                               <tr>
                                 <th data-sortable-col data-sortable-default-col data-priority='persist'>LAN IP</th>

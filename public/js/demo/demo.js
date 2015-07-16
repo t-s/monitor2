@@ -2400,13 +2400,6 @@ var l20n=_RL20n_.l20n,
 	        React.createElement(Grid, null, 
 	          React.createElement(Row, null, 
 	            React.createElement(Col, {sm: 12}, 
-	              React.createElement(PanelContainer, null, 
-	                React.createElement(Panel, null, 
-	                  React.createElement(PanelBody, {className: "text-center"}, 
-	                    React.createElement("h1", null, "Dashboard")
-	                  )
-	                )
-	              ), 
 	             React.createElement(PanelContainer, {noOverflow: true, controlStyles: "bg-orange fg-white"}, 
 	                React.createElement(Panel, null, 
 	                  React.createElement(PanelHeader, {className: "bg-orange fg-white"}, 
@@ -2422,7 +2415,7 @@ var l20n=_RL20n_.l20n,
 	                    React.createElement(Grid, null, 
 	                      React.createElement(Row, null, 
 	                        React.createElement(Col, {xs: 12}, 
-	                          React.createElement(Table, {striped: true, bordered: true, className: "tablesaw", "data-mode": "swipe", "data-sortable": true, "data-sortable-switch": true, "data-mode-switch": true}, 
+	                          React.createElement(Table, {striped: true, bordered: true, className: "tablesaw", "data-mode": "stack", "data-sortable": true, "data-sortable-switch": true, "data-mode-switch": true}, 
 	                            React.createElement("thead", null, 
 	                              React.createElement("tr", null, 
 	                                React.createElement("th", {"data-sortable-col": true, "data-sortable-default-col": true, "data-priority": "persist"}, "LAN IP"), 
@@ -2491,13 +2484,45 @@ var l20n=_RL20n_.l20n,
 	        React.createElement(Grid, null, 
 	          React.createElement(Row, null, 
 	            React.createElement(Col, {sm: 12}, 
-	              React.createElement(PanelContainer, null, 
+	             React.createElement(PanelContainer, {noOverflow: true, controlStyles: "bg-orange fg-white"}, 
 	                React.createElement(Panel, null, 
-	                  React.createElement(PanelBody, {className: "text-center"}, 
-	                    React.createElement("p", null, "All Miners")
+	                  React.createElement(PanelHeader, {className: "bg-orange fg-white"}, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement("h3", null, "All Miners")
+	                        )
+	                      )
+	                    )
+	                  ), 
+	                  React.createElement(PanelBody, null, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement(Table, {striped: true, bordered: true, className: "tablesaw", "data-mode": "stack", "data-sortable": true, "data-sortable-switch": true, "data-mode-switch": true}, 
+	                            React.createElement("thead", null, 
+	                              React.createElement("tr", null, 
+	                                React.createElement("th", {"data-sortable-col": true, "data-sortable-default-col": true, "data-priority": "persist"}, "LAN IP"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Type"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Hash Rate"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "2"}, "Temperature"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "1"}, "Socket Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Fan Speed"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Start Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Wattage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Last Pinged")
+	                              )
+	                            ), 
+	                            React.createElement("tbody", null
+	                            )
+	                          )
+	                        )
+	                      )
+	                     )
+	                   )
 	                  )
 	                )
-	              )
 	            )
 	          )
 	        )
@@ -2543,13 +2568,201 @@ var l20n=_RL20n_.l20n,
 	        React.createElement(Grid, null, 
 	          React.createElement(Row, null, 
 	            React.createElement(Col, {sm: 12}, 
-	              React.createElement(PanelContainer, null, 
+	             React.createElement(PanelContainer, {noOverflow: true, controlStyles: "bg-orange fg-white"}, 
 	                React.createElement(Panel, null, 
-	                  React.createElement(PanelBody, {className: "text-center"}, 
-	                    React.createElement("p", null, "BLANK PAGE")
+	                  React.createElement(PanelHeader, {className: "bg-orange fg-white"}, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement("h3", null, "SP10")
+	                        )
+	                      )
+	                    )
+	                  ), 
+	                  React.createElement(PanelBody, null, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement(Table, {striped: true, bordered: true, className: "tablesaw", "data-mode": "stack", "data-sortable": true, "data-sortable-switch": true, "data-mode-switch": true}, 
+	                            React.createElement("thead", null, 
+	                              React.createElement("tr", null, 
+	                                React.createElement("th", {"data-sortable-col": true, "data-sortable-default-col": true, "data-priority": "persist"}, "LAN IP"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Type"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Hash Rate"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "2"}, "Temperature"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "1"}, "Socket Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Fan Speed"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Start Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Wattage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Last Pinged")
+	                              )
+	                            ), 
+	                            React.createElement("tbody", null
+	                            )
+	                          )
+	                        )
+	                      )
+	                     )
+	                    )
 	                  )
-	                )
-	              )
+	                ), 
+	             React.createElement(PanelContainer, {noOverflow: true, controlStyles: "bg-orange fg-white"}, 
+	                React.createElement(Panel, null, 
+	                  React.createElement(PanelHeader, {className: "bg-orange fg-white"}, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement("h3", null, "SP20")
+	                        )
+	                      )
+	                    )
+	                  ), 
+	                  React.createElement(PanelBody, null, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement(Table, {striped: true, bordered: true, className: "tablesaw", "data-mode": "stack", "data-sortable": true, "data-sortable-switch": true, "data-mode-switch": true}, 
+	                            React.createElement("thead", null, 
+	                              React.createElement("tr", null, 
+	                                React.createElement("th", {"data-sortable-col": true, "data-sortable-default-col": true, "data-priority": "persist"}, "LAN IP"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Type"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Hash Rate"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "2"}, "Temperature"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "1"}, "Socket Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Fan Speed"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Start Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Wattage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Last Pinged")
+	                              )
+	                            ), 
+	                            React.createElement("tbody", null
+	                            )
+	                          )
+	                         )
+	                       )
+	                      )
+	                   )
+	                  )
+	                ), 
+	             React.createElement(PanelContainer, {noOverflow: true, controlStyles: "bg-orange fg-white"}, 
+	                React.createElement(Panel, null, 
+	                  React.createElement(PanelHeader, {className: "bg-orange fg-white"}, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement("h3", null, "SP30")
+	                        )
+	                      )
+	                    )
+	                  ), 
+	                  React.createElement(PanelBody, null, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement(Table, {striped: true, bordered: true, className: "tablesaw", "data-mode": "stack", "data-sortable": true, "data-sortable-switch": true, "data-mode-switch": true}, 
+	                            React.createElement("thead", null, 
+	                              React.createElement("tr", null, 
+	                                React.createElement("th", {"data-sortable-col": true, "data-sortable-default-col": true, "data-priority": "persist"}, "LAN IP"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Type"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Hash Rate"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "2"}, "Temperature"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "1"}, "Socket Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Fan Speed"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Start Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Wattage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Last Pinged")
+	                              )
+	                            ), 
+	                            React.createElement("tbody", null
+	                            )
+	                          )
+	                         )
+	                       )
+	                      )
+	                   )
+	                  )
+	                ), 
+	             React.createElement(PanelContainer, {noOverflow: true, controlStyles: "bg-orange fg-white"}, 
+	                React.createElement(Panel, null, 
+	                  React.createElement(PanelHeader, {className: "bg-orange fg-white"}, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement("h3", null, "SP31")
+	                        )
+	                      )
+	                    )
+	                  ), 
+	                  React.createElement(PanelBody, null, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement(Table, {striped: true, bordered: true, className: "tablesaw", "data-mode": "stack", "data-sortable": true, "data-sortable-switch": true, "data-mode-switch": true}, 
+	                            React.createElement("thead", null, 
+	                              React.createElement("tr", null, 
+	                                React.createElement("th", {"data-sortable-col": true, "data-sortable-default-col": true, "data-priority": "persist"}, "LAN IP"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Type"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Hash Rate"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "2"}, "Temperature"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "1"}, "Socket Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Fan Speed"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Start Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Wattage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Last Pinged")
+	                              )
+	                            ), 
+	                            React.createElement("tbody", null
+	                            )
+	                          )
+	                         )
+	                       )
+	                      )
+	                   )
+	                  )
+	                 ), 
+	             React.createElement(PanelContainer, {noOverflow: true, controlStyles: "bg-orange fg-white"}, 
+	                React.createElement(Panel, null, 
+	                  React.createElement(PanelHeader, {className: "bg-orange fg-white"}, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement("h3", null, "SP35")
+	                        )
+	                      )
+	                    )
+	                  ), 
+	                  React.createElement(PanelBody, null, 
+	                    React.createElement(Grid, null, 
+	                      React.createElement(Row, null, 
+	                        React.createElement(Col, {xs: 12}, 
+	                          React.createElement(Table, {striped: true, bordered: true, className: "tablesaw", "data-mode": "stack", "data-sortable": true, "data-sortable-switch": true, "data-mode-switch": true}, 
+	                            React.createElement("thead", null, 
+	                              React.createElement("tr", null, 
+	                                React.createElement("th", {"data-sortable-col": true, "data-sortable-default-col": true, "data-priority": "persist"}, "LAN IP"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Type"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "3"}, "Hash Rate"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "2"}, "Temperature"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "1"}, "Socket Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Fan Speed"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Start Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Voltage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Maximum Wattage"), 
+	                                React.createElement("th", {"data-sortable-col": true, "data-priority": "4"}, "Last Pinged")
+	                              )
+	                            ), 
+	                            React.createElement("tbody", null
+	                            )
+	                          )
+	                         )
+	                       )
+	                      )
+	                   )
+	                  )
+	                 )
 	            )
 	          )
 	        )

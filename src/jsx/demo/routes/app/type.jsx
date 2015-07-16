@@ -9,13 +9,201 @@ var Body = React.createClass({
         <Grid>
           <Row>
             <Col sm={12}>
-              <PanelContainer>
+             <PanelContainer noOverflow controlStyles='bg-orange fg-white'>
                 <Panel>
-                  <PanelBody className='text-center'>
-                    <p>BLANK PAGE</p>
-                  </PanelBody>
-                </Panel>
-              </PanelContainer>
+                  <PanelHeader className='bg-orange fg-white'>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <h3>SP10</h3>
+                        </Col>
+                      </Row>
+                    </Grid>
+                  </PanelHeader>
+                  <PanelBody>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <Table striped bordered className='tablesaw' data-mode="stack" data-sortable data-sortable-switch data-mode-switch>
+                            <thead>
+                              <tr>
+                                <th data-sortable-col data-sortable-default-col data-priority='persist'>LAN IP</th>
+                                <th data-sortable-col data-priority='3'>Type</th>
+                                <th data-sortable-col data-priority='3'>Hash Rate</th>
+                                <th data-sortable-col data-priority='2'>Temperature</th>
+                                <th data-sortable-col data-priority='1'>Socket Voltage</th>
+                                <th data-sortable-col data-priority='4'>Fan Speed</th>
+                                <th data-sortable-col data-priority='4'>Start Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Wattage</th>
+                                <th data-sortable-col data-priority='4'>Last Pinged</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                          </Table>
+                        </Col>
+                      </Row>
+                     </Grid>
+                    </PanelBody>
+                  </Panel>
+                </PanelContainer>
+             <PanelContainer noOverflow controlStyles='bg-orange fg-white'>
+                <Panel>
+                  <PanelHeader className='bg-orange fg-white'>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <h3>SP20</h3>
+                        </Col>
+                      </Row>
+                    </Grid>
+                  </PanelHeader>
+                  <PanelBody>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <Table striped bordered className='tablesaw' data-mode="stack" data-sortable data-sortable-switch data-mode-switch>
+                            <thead>
+                              <tr>
+                                <th data-sortable-col data-sortable-default-col data-priority='persist'>LAN IP</th>
+                                <th data-sortable-col data-priority='3'>Type</th>
+                                <th data-sortable-col data-priority='3'>Hash Rate</th>
+                                <th data-sortable-col data-priority='2'>Temperature</th>
+                                <th data-sortable-col data-priority='1'>Socket Voltage</th>
+                                <th data-sortable-col data-priority='4'>Fan Speed</th>
+                                <th data-sortable-col data-priority='4'>Start Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Wattage</th>
+                                <th data-sortable-col data-priority='4'>Last Pinged</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                          </Table>
+                         </Col>
+                       </Row>
+                      </Grid>
+                   </PanelBody>
+                  </Panel>
+                </PanelContainer>
+             <PanelContainer noOverflow controlStyles='bg-orange fg-white'>
+                <Panel>
+                  <PanelHeader className='bg-orange fg-white'>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <h3>SP30</h3>
+                        </Col>
+                      </Row>
+                    </Grid>
+                  </PanelHeader>
+                  <PanelBody>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <Table striped bordered className='tablesaw' data-mode="stack" data-sortable data-sortable-switch data-mode-switch>
+                            <thead>
+                              <tr>
+                                <th data-sortable-col data-sortable-default-col data-priority='persist'>LAN IP</th>
+                                <th data-sortable-col data-priority='3'>Type</th>
+                                <th data-sortable-col data-priority='3'>Hash Rate</th>
+                                <th data-sortable-col data-priority='2'>Temperature</th>
+                                <th data-sortable-col data-priority='1'>Socket Voltage</th>
+                                <th data-sortable-col data-priority='4'>Fan Speed</th>
+                                <th data-sortable-col data-priority='4'>Start Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Wattage</th>
+                                <th data-sortable-col data-priority='4'>Last Pinged</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                          </Table>
+                         </Col>
+                       </Row>
+                      </Grid>
+                   </PanelBody>
+                  </Panel>
+                </PanelContainer>
+             <PanelContainer noOverflow controlStyles='bg-orange fg-white'>
+                <Panel>
+                  <PanelHeader className='bg-orange fg-white'>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <h3>SP31</h3>
+                        </Col>
+                      </Row>
+                    </Grid>
+                  </PanelHeader>
+                  <PanelBody>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <Table striped bordered className='tablesaw' data-mode="stack" data-sortable data-sortable-switch data-mode-switch>
+                            <thead>
+                              <tr>
+                                <th data-sortable-col data-sortable-default-col data-priority='persist'>LAN IP</th>
+                                <th data-sortable-col data-priority='3'>Type</th>
+                                <th data-sortable-col data-priority='3'>Hash Rate</th>
+                                <th data-sortable-col data-priority='2'>Temperature</th>
+                                <th data-sortable-col data-priority='1'>Socket Voltage</th>
+                                <th data-sortable-col data-priority='4'>Fan Speed</th>
+                                <th data-sortable-col data-priority='4'>Start Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Wattage</th>
+                                <th data-sortable-col data-priority='4'>Last Pinged</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                          </Table>
+                         </Col>
+                       </Row>
+                      </Grid>
+                   </PanelBody>
+                  </Panel>
+                 </PanelContainer>
+             <PanelContainer noOverflow controlStyles='bg-orange fg-white'>
+                <Panel>
+                  <PanelHeader className='bg-orange fg-white'>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <h3>SP35</h3>
+                        </Col>
+                      </Row>
+                    </Grid>
+                  </PanelHeader>
+                  <PanelBody>
+                    <Grid>
+                      <Row>
+                        <Col xs={12}>
+                          <Table striped bordered className='tablesaw' data-mode="stack" data-sortable data-sortable-switch data-mode-switch>
+                            <thead>
+                              <tr>
+                                <th data-sortable-col data-sortable-default-col data-priority='persist'>LAN IP</th>
+                                <th data-sortable-col data-priority='3'>Type</th>
+                                <th data-sortable-col data-priority='3'>Hash Rate</th>
+                                <th data-sortable-col data-priority='2'>Temperature</th>
+                                <th data-sortable-col data-priority='1'>Socket Voltage</th>
+                                <th data-sortable-col data-priority='4'>Fan Speed</th>
+                                <th data-sortable-col data-priority='4'>Start Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Voltage</th>
+                                <th data-sortable-col data-priority='4'>Maximum Wattage</th>
+                                <th data-sortable-col data-priority='4'>Last Pinged</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                          </Table>
+                         </Col>
+                       </Row>
+                      </Grid>
+                   </PanelBody>
+                  </Panel>
+                 </PanelContainer>
             </Col>
           </Row>
         </Grid>
