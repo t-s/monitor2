@@ -1,0 +1,12 @@
+{
+"apps" : [{
+"name" : "monitor2",
+"script" : "/Users/puddleduck/code/monitor2/launch.js",
+"cwd" : "/Users/puddleduck/code/monitor2/",
+"exec_mode" : "fork_mode",
+"env": {
+"NODE_ENV": "production",
+"RTL": true,
+"PORT": 8080,
+"APP": "demo"
+}}]}

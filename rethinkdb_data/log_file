@@ -1,0 +1,34 @@
+2015-07-16T14:31:15.673168000 0.003175s notice: Recursively removing directory rethinkdb_data/tmp
+2015-07-16T14:31:16.225628000 0.555701s notice: Our server ID: 2952111a-10bf-466c-a721-bbd5cfd9289c
+2015-07-16T14:31:16.225692000 0.555764s info: Created directory 'rethinkdb_data' and a metadata file inside it.
+2015-07-16T14:32:29.774357000 0.005833s notice: Running rethinkdb 2.0.3 (CLANG 4.2 (clang-425.0.28))...
+2015-07-16T14:32:29.778326000 0.009799s notice: Running on Darwin 14.4.0 x86_64
+2015-07-16T14:32:29.778382000 0.009853s notice: Loading data from directory /Users/puddleduck/code/monitor2/rethinkdb_data
+2015-07-16T14:32:29.842457000 0.073928s info: Automatically using cache size of 100 MB
+2015-07-16T14:32:29.842465000 0.073936s warn: Cache size does not leave much memory for server and query overhead (available memory: 890 MB).
+2015-07-16T14:32:29.842470000 0.073941s warn: Cache size is very low and may impact performance.
+2015-07-16T14:32:29.843582000 0.075053s notice: Listening for intracluster connections on port 29015
+2015-07-16T14:32:29.845825000 0.077297s notice: Listening for client driver connections on port 28015
+2015-07-16T14:32:29.845952000 0.077424s notice: Listening for administrative HTTP connections on port 8080
+2015-07-16T14:32:29.845958000 0.077429s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-16T14:32:29.845961000 0.077432s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-16T14:32:29.845964000 0.077435s notice: Server ready, "lazarus_vco" 2952111a-10bf-466c-a721-bbd5cfd9289c
+2015-07-16T14:32:30.081450000 0.312921s notice: A newer version of the RethinkDB server is available: 2.0.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-07-16T14:32:38.747996000 8.979999s notice: Server got SIGINT from pid 62468, uid 501; shutting down...
+2015-07-16T14:32:38.748144000 8.980146s notice: Shutting down client connections...
+2015-07-16T14:32:38.748237000 8.980240s notice: All client connections closed.
+2015-07-16T14:32:38.748247000 8.980249s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-16T14:32:38.750729000 8.982732s notice: Storage engine shut down.
+2015-07-16T14:33:08.935325000 0.005927s notice: Running rethinkdb 2.0.3 (CLANG 4.2 (clang-425.0.28))...
+2015-07-16T14:33:08.940315000 0.010913s notice: Running on Darwin 14.4.0 x86_64
+2015-07-16T14:33:08.940367000 0.010963s notice: Loading data from directory /Users/puddleduck/code/monitor2/rethinkdb_data
+2015-07-16T14:33:08.988380000 0.058977s info: Automatically using cache size of 100 MB
+2015-07-16T14:33:08.988392000 0.058988s warn: Cache size does not leave much memory for server and query overhead (available memory: 960 MB).
+2015-07-16T14:33:08.988399000 0.058995s warn: Cache size is very low and may impact performance.
+2015-07-16T14:33:08.989168000 0.059765s notice: Listening for intracluster connections on port 29015
+2015-07-16T14:33:08.990890000 0.061486s notice: Listening for client driver connections on port 28015
+2015-07-16T14:33:08.991027000 0.061624s notice: Listening for administrative HTTP connections on port 8081
+2015-07-16T14:33:08.991029000 0.061626s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-16T14:33:08.991034000 0.061630s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-16T14:33:08.991054000 0.061650s notice: Server ready, "lazarus_vco" 2952111a-10bf-466c-a721-bbd5cfd9289c
+2015-07-16T14:33:09.154794000 0.225392s notice: A newer version of the RethinkDB server is available: 2.0.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
