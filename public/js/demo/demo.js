@@ -1414,7 +1414,6 @@ var l20n=_RL20n_.l20n,
 	                  React.createElement(SidebarNavItem, {glyph: "icon-feather-stack", name: "Add Pools", href: "/app/add_pools"}), 
 	                  React.createElement(SidebarNavItem, {glyph: "icon-simple-line-icons-clock", name: "Clock Settings", href: "/app/overclock"}), 
 	                  React.createElement(SidebarNavItem, {glyph: "icon-stroke-gap-icons-Users", name: "Staff Schedule", href: "/app/schedule"}), 
-	                  React.createElement(SidebarNavItem, {glyph: "icon-stroke-gap-icons-Chart", name: "Mining History", href: "/app/history"}), 
 	                  React.createElement("hr", {style: {borderColor: '#3B4648', borderWidth: 2, marginTop: 15, marginBottom: 0, width: 200}}), 
 	              React.createElement("div", {className: "sidebar-header"}, "TESTING"), 
 	                  React.createElement(SidebarNavItem, {glyph: "icon-simple-line-icons-layers float-right-rtl", name: "Panels", href: "/app/panels"}), 
@@ -1434,8 +1433,6 @@ var l20n=_RL20n_.l20n,
 	                      React.createElement(SidebarNavItem, {glyph: "icon-feather-pie-graph", name: "Morris.JS", href: "/app/charts/morrisjs"})
 	                    )
 	                  ), 
-	                  React.createElement(SidebarNavItem, {href: "/app/timeline", glyph: "icon-ikons-time", name: "Static Timeline"}), 
-	                  React.createElement(SidebarNavItem, {href: "/app/interactive-timeline", glyph: "icon-fontello-back-in-time", name: "Interactive Timeline"}), 
 	                  React.createElement(SidebarNavItem, {glyph: "icon-feather-toggle", name: React.createElement("span", null, "UI Elements ", React.createElement(BLabel, {className: "bg-deepred fg-white"}, "7"))}, 
 	                    React.createElement(SidebarNav, null, 
 	                      React.createElement(SidebarNavItem, {href: "/app/ui-elements/buttons", glyph: "icon-mfizz-oracle", name: "Buttons"}), 
@@ -1460,16 +1457,7 @@ var l20n=_RL20n_.l20n,
 	                      React.createElement(SidebarNavItem, {href: "/app/tables/datatables", glyph: "icon-fontello-th-2", name: "Datatables"}), 
 	                      React.createElement(SidebarNavItem, {href: "/app/tables/tablesaw", glyph: "icon-fontello-view-mode", name: "Tablesaw"})
 	                    )
-	                  ), 
-	                  React.createElement(SidebarNavItem, {href: "/app/grid", glyph: "icon-ikons-grid-1 float-right-rtl", name: "Grid"}), 
-	                  React.createElement(SidebarNavItem, {href: "/app/lists", glyph: "icon-fontello-flow-cascade", name: "Lists"}), 
-	                  React.createElement(SidebarNavItem, {glyph: "icon-fontello-folder-open-empty", name: React.createElement("span", null, "File Utilities ", React.createElement(BLabel, {className: "bg-orange fg-darkbrown"}, "2"))}, 
-	                    React.createElement(SidebarNav, null, 
-	                      React.createElement(SidebarNavItem, {href: "/app/file-utilities/dropzone", glyph: "icon-stroke-gap-icons-Download", name: "Dropzone"}), 
-	                      React.createElement(SidebarNavItem, {href: "/app/file-utilities/crop", glyph: "icon-ikons-crop", name: "Image Cropping"})
-	                    )
-	                  ), 
-	                  React.createElement(SidebarNavItem, {href: "/app/fonts", glyph: "icon-fontello-fontsize", name: "Fonts"})
+	                  )
 	                )
 	              )
 	            )
@@ -1484,75 +1472,7 @@ var l20n=_RL20n_.l20n,
 	                React.createElement(SidebarNav, {style: {marginBottom: 0}}, 
 	                  React.createElement(SidebarNavItem, {glyph: "icon-ikons-login", name: "Login", href: "/app/login"}), 
 	                  React.createElement(SidebarNavItem, {glyph: "icon-simple-line-icons-users", name: "Signup", href: "/app/signup"}), 
-	                  React.createElement(SidebarNavItem, {glyph: "icon-ikons-lock", name: "Lock Page", href: "/app/lock"}), 
-	                  React.createElement(SidebarNavItem, {glyph: "icon-dripicons-document", name: "Invoice", href: "/app/invoice"}), 
-	                  React.createElement(SidebarNavItem, {glyph: "icon-feather-tag icon-rotate-135", name: "Pricing Tables", href: "/app/pricing"})
-	                )
-	              )
-	            )
-	          )
-	        ), 
-	        React.createElement("hr", {style: {borderColor: '#3B4648', borderWidth: 2, marginTop: 15, marginBottom: 0, width: 200}}), 
-	        React.createElement(Grid, {gutterBottom: true}, 
-	          React.createElement(Row, null, 
-	            React.createElement(Col, {xs: 12}, 
-	              React.createElement("div", {className: "sidebar-header"}, "DOCUMENTATION"), 
-	              React.createElement("div", {className: "sidebar-nav-container"}, 
-	                React.createElement(SidebarNav, {style: {marginBottom: 0}}, 
-	                  React.createElement(SidebarNavItem, {glyph: "icon-fontello-install", name: "Installation", href: "/app/docs/installation"}), 
-	                  React.createElement(SidebarNavItem, {glyph: "devicon-gulp-plain", name: React.createElement("span", null, "Gulpfile.js ", React.createElement(BLabel, {className: "bg-red fg-white"}, "6"))}, 
-	                    React.createElement(SidebarNav, null, 
-	                      React.createElement(SidebarNavItem, {name: "Basics", href: "/app/docs/gulpfile/basics"}), 
-	                      React.createElement(SidebarNavItem, {name: "Sass to CSS", href: "/app/docs/gulpfile/sass"}), 
-	                      React.createElement(SidebarNavItem, {name: "JSX to JS", href: "/app/docs/gulpfile/jsx"}), 
-	                      React.createElement(SidebarNavItem, {name: "WebFonts", href: "/app/docs/gulpfile/webfonts"}), 
-	                      React.createElement(SidebarNavItem, {name: "Scaffolding", href: "/app/docs/gulpfile/scaffolding"}), 
-	                      React.createElement(SidebarNavItem, {name: "External Plugins", href: "/app/docs/gulpfile/externalplugins"})
-	                    )
-	                  ), 
-	                  React.createElement(SidebarNavItem, {glyph: "icon-fontello-looped-square-interest", name: React.createElement("span", null, "Rubix ", React.createElement(BLabel, {className: "bg-darkgreen45 fg-white"}, "3"))}, 
-	                    React.createElement(SidebarNav, null, 
-	                      React.createElement(SidebarNavItem, {name: "React", href: "/app/docs/rubix/react"}), 
-	                      React.createElement(SidebarNavItem, {name: "Rubix - JSX", href: "/app/docs/rubix/rubix-jsx"}), 
-	                      React.createElement(SidebarNavItem, {name: "Rubix - SASS", href: "/app/docs/rubix/rubix-sass"})
-	                    )
-	                  ), 
-	                  React.createElement(SidebarNavItem, {glyph: "devicon-bootstrap-plain", name: React.createElement("span", null, "Bootstrap ", React.createElement(BLabel, {className: "bg-darkblue fg-white"}, "7"))}, 
-	                    React.createElement(SidebarNav, null, 
-	                      React.createElement(SidebarNavItem, {name: "Grid", href: "/app/docs/bootstrap/grid"}), 
-	                      React.createElement(SidebarNavItem, {name: "Typography", href: "/app/docs/bootstrap/typography"}), 
-	                      React.createElement(SidebarNavItem, {name: "Code", href: "/app/docs/bootstrap/code"}), 
-	                      React.createElement(SidebarNavItem, {name: "Tables", href: "/app/docs/bootstrap/tables"}), 
-	                      React.createElement(SidebarNavItem, {name: "Forms", href: "/app/docs/bootstrap/forms"}), 
-	                      React.createElement(SidebarNavItem, {name: "Form Controls"}, 
-	                        React.createElement(SidebarNav, null, 
-	                          React.createElement(SidebarNavItem, {name: "Inputs", href: "/app/docs/bootstrap/form_controls/inputs"}), 
-	                          React.createElement(SidebarNavItem, {name: "Textarea", href: "/app/docs/bootstrap/form_controls/textarea"}), 
-	                          React.createElement(SidebarNavItem, {name: "Checkbox & Radio", href: "/app/docs/bootstrap/form_controls/checkradio"}), 
-	                          React.createElement(SidebarNavItem, {name: "Select", href: "/app/docs/bootstrap/form_controls/select"}), 
-	                          React.createElement(SidebarNavItem, {name: "Buttons", href: "/app/docs/bootstrap/form_controls/buttons"})
-	                        )
-	                      ), 
-	                      React.createElement(SidebarNavItem, {name: "Components"}, 
-	                        React.createElement(SidebarNav, null, 
-	                          React.createElement(SidebarNavItem, {name: "Dropdowns", href: "/app/docs/bootstrap/components/dropdowns"}), 
-	                          React.createElement(SidebarNavItem, {name: "Button Groups", href: "/app/docs/bootstrap/components/button_groups"}), 
-	                          React.createElement(SidebarNavItem, {name: "Input Groups", href: "/app/docs/bootstrap/components/input_groups"}), 
-	                          React.createElement(SidebarNavItem, {name: "Navs", href: "/app/docs/bootstrap/components/navs"}), 
-	                          React.createElement(SidebarNavItem, {name: "Navbar", href: "/app/docs/bootstrap/components/navbar"}), 
-	                          React.createElement(SidebarNavItem, {name: "Breadcrumbs", href: "/app/docs/bootstrap/components/breadcrumbs"}), 
-	                          React.createElement(SidebarNavItem, {name: "Pagination", href: "/app/docs/bootstrap/components/pagination"}), 
-	                          React.createElement(SidebarNavItem, {name: "Labels & Badges", href: "/app/docs/bootstrap/components/labels_and_badges"}), 
-	                          React.createElement(SidebarNavItem, {name: "Jumbotron", href: "/app/docs/bootstrap/components/jumbotron"}), 
-	                          React.createElement(SidebarNavItem, {name: "Alerts", href: "/app/docs/bootstrap/components/alerts"}), 
-	                          React.createElement(SidebarNavItem, {name: "Progress bars", href: "/app/docs/bootstrap/components/progress-bars"}), 
-	                          React.createElement(SidebarNavItem, {name: "Media", href: "/app/docs/bootstrap/components/media"}), 
-	                          React.createElement(SidebarNavItem, {name: "List Group", href: "/app/docs/bootstrap/components/list-group"})
-	                        )
-	                      )
-	                    )
-	                  ), 
-	                  React.createElement(SidebarNavItem, {glyph: "icon-outlined-geolocalizator", name: "Mozilla L20n.js", href: "/app/docs/l20n"})
+	                  React.createElement(SidebarNavItem, {glyph: "icon-ikons-lock", name: "Lock Page", href: "/app/lock"})
 	                )
 	              )
 	            )
@@ -2126,7 +2046,7 @@ var l20n=_RL20n_.l20n,
 	        React.createElement(Grid, {id: "footer", className: "text-center"}, 
 	          React.createElement(Row, null, 
 	            React.createElement(Col, {xs: 12}, 
-	              React.createElement("div", null, "© 2015 BTCS Mining Monitor - v", this.state.version)
+	              React.createElement("div", null, "© 2015 BTCS Mining Monitor - v", this.state.version, "   ", React.createElement("img", {src: "/imgs/lotus.png", width: "20"}))
 	            )
 	          )
 	        )
