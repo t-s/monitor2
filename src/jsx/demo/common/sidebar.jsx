@@ -15,6 +15,7 @@ var ApplicationSidebar = React.createClass({
                   <SidebarNavItem glyph='icon-fontello-list-bullet' name='Miners By Type' href='/app/type' />
                   <SidebarNavItem glyph='icon-fontello-buffer' name='Miners By Rack' href='/app/rack' />
                   <SidebarNavItem glyph='icon-fontello-adult' name='Miners By Worker' href='/app/worker' />
+                  <SidebarNavItem glyph='icon-stroke-gap-icons-Chart' name='Mining History' href='/app/history' />
                 </SidebarNav>
               </div>
             </Col>
@@ -27,6 +28,13 @@ var ApplicationSidebar = React.createClass({
               <div className='sidebar-header'>UTILITIES</div>
               <div className='sidebar-nav-container'>
                 <SidebarNav style={{marginBottom: 0}}>
+                  <SidebarNavItem glyph='icon-feather-stack-2' name='Update Pools' href='/app/update' />
+                  <SidebarNavItem glyph='icon-feather-stack' name='Add Pools' href='/app/add_pools' />
+                  <SidebarNavItem glyph='icon-simple-line-icons-clock' name='Clock Settings' href='/app/overclock' />
+                  <SidebarNavItem glyph='icon-stroke-gap-icons-Users' name='Staff Schedule' href='/app/schedule' />
+                  <SidebarNavItem glyph='icon-stroke-gap-icons-Chart' name='Mining History' href='/app/history' />
+                  <hr style={{borderColor: '#3B4648', borderWidth: 2, marginTop: 15, marginBottom: 0, width: 200}} />
+              <div className='sidebar-header'>TESTING</div>
                   <SidebarNavItem glyph='icon-simple-line-icons-layers float-right-rtl' name='Panels' href='/app/panels' />
                   <SidebarNavItem glyph='icon-ikons-bar-chart-2 float-right-rtl' name={<span>Charts <BLabel className='bg-brown50 fg-white'>4</BLabel></span>}>
                     <SidebarNav>
